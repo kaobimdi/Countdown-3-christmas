@@ -1,0 +1,433 @@
+    html {
+        height: 100%
+    }
+    
+    body {
+        background: url(images/lynda-hinton-RpWCPDxMcSo-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 100%;
+        height: 100%;
+        background-attachment: fixed;
+    }
+    
+    h1 {
+        text-align: center;
+        color: white;
+        font-family: "Miraculous&Christmas", Georgia, 'Times New Roman', Times, serif;
+        font-size: 150px;
+    }
+    
+    @font-face {
+        font-family: "Miraculous&Christmas";
+        src: url(../Miraculous-christmas-font/Miraculous&Christmas.ttf);
+        format: ('truetype');
+    }
+    
+    h2 {
+        color: white;
+        text-align: center;
+        font-family: "Miraculous&Christmas", Georgia, 'Times New Roman', Times, serif;
+        font-size: 80px;
+    }
+    
+    #clockdiv {
+        font-family: sans-serif;
+        color: #fff;
+        font-weight: 100;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    #clockdiv>div {
+        padding: 10px;
+        border-radius: 3px;
+        background: rgb(240, 81, 81);
+        display: inline-block;
+    }
+    
+    #clockdiv div>span {
+        padding: 15px;
+        border-radius: 3px;
+        background: rgb(221, 134, 134);
+        display: inline-block;
+    }
+    
+    smalltext {
+        padding-top: 5px;
+        font-size: 16px;
+    }
+    
+    @media only screen and (min-width: 320px) and (max-width:539px) {
+        body {
+            width: 100%;
+            background: url(images/lynda-hinton-RpWCPDxMcSo-unsplash.jpg);
+            background-size: cover;
+            background-repeat: repeat;
+            background-position: center;
+            max-width: 100%;
+            max-height: 100%;
+            background-attachment: fixed;
+        }
+        @font-face {
+            font-family: "Miraculous&Christmas";
+            src: url(../Miraculous-christmas-font/Miraculous&Christmas.ttf);
+            format: ('truetype');
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            font-family: "Miraculous&Christmas", Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+            padding-top: 20px;
+            padding-right: 20px;
+        }
+        h2 {
+            color: white;
+            text-align: center;
+            font-family: "Miraculous&Christmas", Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+            padding-right: 40px;
+            padding-top: 20px;
+            padding-bottom: 45px;
+        }
+        #clockdiv div>span {
+            padding: 5px;
+            border-radius: 3px;
+            background: rgb(221, 134, 134);
+            display: inline-block;
+            padding-right: 30px;
+            padding-top: 30px;
+        }
+        #clockdiv div>span {
+            padding: 5px;
+            border-radius: 3px;
+            background: rgb(221, 134, 134);
+            display: inline-block;
+        }
+        clockdiv {
+            font-family: sans-serif;
+            color: #fff;
+            font-weight: 50;
+            text-align: center;
+            font-size: 10px;
+            padding-top: 30px;
+        }
+        .smalltext {
+            font-size: small;
+        }
+        .days {
+            font-size: 25px;
+        }
+        .hours {
+            font-size: 25px;
+        }
+        .minutes {
+            font-size: 25px;
+        }
+        .seconds {
+            font-size: 25px;
+        }
+        footer {
+            padding-right: 30px;
+        }
+    }
+    
+    @media only screen and (min-width: 540px) and (max-width: 700px) {
+        body {
+            width: 100%;
+            background: url(images/lynda-hinton-RpWCPDxMcSo-unsplash.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            max-width: 100%;
+            height: 100%;
+            background-attachment: fixed;
+        }
+        @font-face {
+            font-family: "Miraculous&Christmas";
+            src: url(../Miraculous-christmas-font/Miraculous&Christmas.ttf);
+            format: ('truetype');
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            font-family: "Miraculous&Christmas", Georgia, 'Times New Roman', Times, serif;
+            font-size: 50px;
+            padding-top: 20px;
+            padding-right: 20px;
+        }
+        h2 {
+            color: white;
+            text-align: center;
+            font-family: "Miraculous&Christmas", Georgia, 'Times New Roman', Times, serif;
+            font-size: 50px;
+            padding-right: 40px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        #clockdiv div>span {
+            padding: 5px;
+            border-radius: 1px;
+            background: rgb(221, 134, 134);
+            display: inline-block;
+            padding-right: 30px;
+            padding-top: 10px;
+        }
+        #clockdiv div>span {
+            padding: 5px;
+            border-radius: 1px;
+            background: rgb(221, 134, 134);
+            display: inline-block;
+        }
+        clockdiv {
+            font-family: sans-serif;
+            color: #fff;
+            font-weight: 50;
+            text-align: center;
+            font-size: 10px;
+            padding-top: 10px;
+        }
+        .smalltext {
+            font-size: 5px;
+        }
+        .days {
+            font-size: 20px;
+        }
+        .hours {
+            font-size: 20px;
+        }
+        .minutes {
+            font-size: 20px;
+        }
+        .seconds {
+            font-size: 20px;
+        }
+        footer {
+            padding-right: 40px;
+        }
+    }
+    
+    @media only screen and (min-width: 701px) and (max-width: 1000px) {
+        body {
+            width: 100%;
+            background: url(images/lynda-hinton-RpWCPDxMcSo-unsplash.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            max-width: 100%;
+            height: 100%;
+            background-attachment: fixed;
+        }
+        @font-face {
+            font-family: "Miraculous&Christmas";
+            src: url(../Miraculous-christmas-font/Miraculous&Christmas.ttf);
+            format: ('truetype');
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            font-family: "Miraculous&Christmas", Georgia, 'Times New Roman', Times, serif;
+            font-size: 70px;
+            padding-top: 20px;
+            padding-right: 20px;
+        }
+        h2 {
+            color: white;
+            text-align: center;
+            font-family: "Miraculous&Christmas", Georgia, 'Times New Roman', Times, serif;
+            font-size: 60px;
+            padding-right: 40px;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+        #clockdiv div>span {
+            padding: 5px;
+            border-radius: 3px;
+            background: rgb(221, 134, 134);
+            display: inline-block;
+            padding-right: 30px;
+            padding-top: 30px;
+        }
+        #clockdiv div>span {
+            padding: 5px;
+            border-radius: 3px;
+            background: rgb(221, 134, 134);
+            display: inline-block;
+        }
+        clockdiv {
+            font-family: sans-serif;
+            color: #fff;
+            font-weight: 50;
+            text-align: center;
+            font-size: 10px;
+            padding-top: 30px;
+        }
+        .smalltext {
+            font-size: 20px;
+        }
+        .days {
+            font-size: 40px;
+        }
+        .hours {
+            font-size: 40px;
+        }
+        .minutes {
+            font-size: 40px;
+        }
+        .seconds {
+            font-size: 40px;
+        }
+        footer {
+            padding-right: 40px;
+        }
+    }
+    
+    @media only screen and (min-width: 1001px) and (max-width: 1199px) {
+        body {
+            width: 100%;
+            background: url(images/lynda-hinton-RpWCPDxMcSo-unsplash.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            max-width: 100%;
+            height: 100%;
+            background-attachment: fixed;
+        }
+        @font-face {
+            font-family: "Miraculous&Christmas";
+            src: url(../Miraculous-christmas-font/Miraculous&Christmas.ttf);
+            format: ('truetype');
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            font-family: "Miraculous&Christmas", Georgia, 'Times New Roman', Times, serif;
+            font-size: 60px;
+            padding-top: 20px;
+            padding-right: 20px;
+        }
+        h2 {
+            color: white;
+            text-align: center;
+            font-family: "Miraculous&Christmas", Georgia, 'Times New Roman', Times, serif;
+            font-size: 50px;
+            padding-right: 40px;
+            padding-top: 20px;
+        }
+        #clockdiv div>span {
+            padding: 5px;
+            border-radius: 3px;
+            background: rgb(221, 134, 134);
+            display: inline-block;
+            padding-right: 30px;
+            padding-top: 30px;
+        }
+        #clockdiv div>span {
+            padding: 5px;
+            border-radius: 3px;
+            background: rgb(221, 134, 134);
+            display: inline-block;
+        }
+        clockdiv {
+            font-family: sans-serif;
+            color: #fff;
+            font-weight: 50;
+            text-align: center;
+            font-size: 10px;
+            padding-top: 30px;
+        }
+        .smalltext {
+            font-size: 30px;
+        }
+        .days {
+            font-size: 40px;
+        }
+        .hours {
+            font-size: 40px;
+        }
+        .minutes {
+            font-size: 40px;
+        }
+        .seconds {
+            font-size: 40px;
+        }
+        footer {
+            padding-right: 45px;
+        }
+    }
+    
+    @media only screen and (min-width: 1199px) {
+        body {
+            width: 100%;
+            background: url(images/lynda-hinton-RpWCPDxMcSo-unsplash.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            max-width: 100%;
+            height: 100%;
+            background-attachment: fixed;
+        }
+        @font-face {
+            font-family: "Miraculous&Christmas";
+            src: url(../Miraculos-christmas-font/Miraculous&Christmas.ttf);
+            format: ('truetype');
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            font-family: "Miraculous&Christmas", Georgia, 'Times New Roman', Times, serif;
+            font-size: 130px;
+            padding-top: 20px;
+            padding-right: 20px;
+        }
+        h2 {
+            color: white;
+            text-align: center;
+            font-family: "Miraculous&Christmas", Georgia, 'Times New Roman', Times, serif;
+            font-size: 120px;
+            padding-right: 40px;
+            padding-top: 20px;
+        }
+        #clockdiv div>span {
+            padding: 5px;
+            border-radius: 3px;
+            background: rgb(221, 134, 134);
+            display: inline-block;
+            padding-right: 30px;
+            padding-top: 30px;
+        }
+        #clockdiv div>span {
+            padding: 5px;
+            border-radius: 3px;
+            background: rgb(221, 134, 134);
+            display: inline-block;
+        }
+        clockdiv {
+            font-family: sans-serif;
+            color: #fff;
+            font-weight: 50;
+            text-align: center;
+            font-size: 10px;
+            padding-top: 30px;
+        }
+        .smalltext {
+            font-size: 30px;
+        }
+        .days {
+            font-size: 50px;
+        }
+        .hours {
+            font-size: 50px;
+        }
+        .minutes {
+            font-size: 50px;
+        }
+        .seconds {
+            font-size: 50px;
+        }
+        footer {
+            padding-right: 45px;
+        }
+    }
